@@ -1,12 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: "app-home",
+  templateUrl: "./home.component.html",
+  styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-
   banner = "/assets/images/banner.jpg";
   youtubefront = "/assets/images/youtube_1.png";
   vaccine1 = "/assets/images/v1.jpg";
@@ -14,11 +13,9 @@ export class HomeComponent implements OnInit {
   vaccine3 = "/assets/images/v3.jpg";
   vaccine4 = "/assets/images/v4.jpg";
   vaccine5 = "/assets/images/v5.jpg";
-  
+  vaccine6 = "/assets/images/v6.png";
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
